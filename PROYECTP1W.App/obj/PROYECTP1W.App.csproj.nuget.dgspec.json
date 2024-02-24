@@ -25,6 +25,63 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj": {
+                "projectPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj",
+        "projectName": "PROYECTP1W.Core",
+        "projectPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj",
+        "packagesPath": "C:\\Users\\gabyg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabyg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },

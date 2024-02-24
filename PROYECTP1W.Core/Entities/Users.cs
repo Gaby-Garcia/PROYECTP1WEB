@@ -1,8 +1,9 @@
-namespace MyCompany.intranet.Core.Entities;
+namespace PROYECTP1W.Core.Entities;
 
-public class Person{
+public class Users{
 
-    public float Weight {get; set;}
-    public float Height {get; set;}
-
+    public decimal Ingreso {get; set;}
+    public decimal Retiro {get; set;}
+    public String Categoria {get; set;}
+    public String Concepto {get; set;}
 }

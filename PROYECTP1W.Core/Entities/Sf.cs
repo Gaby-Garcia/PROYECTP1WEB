@@ -2,7 +2,8 @@
 namespace PROYECTP1W.Core.Entities;
 
 public class Sf{
-
-    public float Index {get; set;}
-
+    public string tipo { get; set; }
+    public string categoria { get; set; }
+    public string concepto { get; set; }
+    public decimal monto { get; set; }
 }

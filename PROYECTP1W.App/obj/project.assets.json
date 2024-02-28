@@ -27,32 +27,40 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gabyg\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.App\\PROYECTP1W.App.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.App\\PROYECTP1W.App.csproj",
       "projectName": "PROYECTP1W.App",
-      "projectPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.App\\PROYECTP1W.App.csproj",
-      "packagesPath": "C:\\Users\\gabyg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.App\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.App\\PROYECTP1W.App.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.App\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\gabyg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj": {
-              "projectPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\8VO SEMESTRE\\TECNOLOGIAS WEB MULTIPLATAFORMA\\1ER PARCIAL\\PROYECTP1\\PROYECTP1W\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj"
+            "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj": {
+              "projectPath": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj"
             }
           }
         }
@@ -77,12 +85,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

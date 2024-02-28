@@ -9,20 +9,23 @@ namespace PROYECTP1W.Console
     {
         public static void Main(string[] args)
         {
-            var sfService = new SfService();
-            var users = new Users();
+            var user = new Users();
+            List<Sf> lstSf = new List<Sf>();
+            
             int option;
+            System.Console.WriteLine("Ingresa por favor tu nombre");
+            user.nombre = System.Console.ReadLine();
+            
             do
             {
+                System.Console.WriteLine("Bienvenid@ "+ user.nombre + "!");
                 System.Console.WriteLine("----- Menu del Sistema -----");
                 System.Console.WriteLine("1. Registro de Transacciones");
                 System.Console.WriteLine("2. Seguimiento de Saldo y Estado Financiero");
-                System.Console.WriteLine("3. Meta");
+                System.Console.WriteLine("3. Establecimiento de metas y presupuestos");
                 System.Console.WriteLine("0. Salir del Sistema");
                 System.Console.Write("Ingresa una opción: ");
-                string input = System.Console.ReadLine();
-                
-                if (!int.TryParse(input, out option))
+                if (!int.TryParse(System.Console.ReadLine(), out option))
                 {
                     System.Console.WriteLine("Opción no válida. Por favor, ingrese un número válido.");
                     continue;
@@ -31,13 +34,19 @@ namespace PROYECTP1W.Console
                 switch (option)
                 {
                     case 1:
-                        sfService.IncomeSf(users);
+                        var serviceSf = new SfService();
+                        var managerSf = new SfManager(serviceSf);
+                        lstSf = managerSf.GetSf(user, lstSf);
                         break;
                     case 2:
-                        // Llama a la función de seguimiento de saldo y estado financiero
+                        var serviceSSEF = new SSEFService();
+                        var managerSSEF = new SSEFManager(serviceSSEF);
+                        managerSSEF.GetSSEF(user, lstSf);
                         break;
                     case 3:
-                        // Llama a la función de la meta
+                        var serviceEMP = new EMPService();
+                        var managerEMP = new EMPManager(serviceEMP);
+                        managerEMP.GetEMP(user, lstSf);
                         break;
                     case 0:
                         System.Console.WriteLine("Ha salido del sistema, que tenga un buen dia!! :)");

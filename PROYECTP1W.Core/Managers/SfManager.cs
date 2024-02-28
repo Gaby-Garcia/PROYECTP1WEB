@@ -12,7 +12,7 @@ public class SfManager : ISfManager {
         _service = service;
     }
 
-    public Sf GetSf(Users users){
-        return _service.IncomeSf(users);
+    public List<Sf> GetSf(Users users, List<Sf> list){
+        return _service.IncomeSf(users, list);
     }
 }

@@ -123,7 +123,7 @@ namespace PROYECTP1W.Core.Services
                         do
                         {
                             Console.Write("Coloca la cantidad a retirar: ");
-                            if ((!decimal.TryParse(Console.ReadLine(), out monto)) || monto > (totalIngresos-totalRetiros))
+                            if ((!decimal.TryParse(Console.ReadLine(), out monto)) || HaveMoney(monto,  (totalIngresos-totalRetiros)))
                             {
                                 Console.WriteLine("Opción no válida. Por favor, ingrese un monto válido.");
                                 continue;
@@ -150,5 +150,14 @@ namespace PROYECTP1W.Core.Services
             } while (opcion != 3);
             return transacciones;
         }
+
+        public bool HaveMoney(decimal monto, decimal saldo)
+        {
+            if (saldo > monto)
+                return true;
+            else
+                return false;
+        }
+        
     }
 }

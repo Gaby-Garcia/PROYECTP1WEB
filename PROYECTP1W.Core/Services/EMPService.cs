@@ -39,7 +39,7 @@ public class EMPService : IEMPService
                         Console.WriteLine("Por favor, ingrese una cantidad valida.");
                         continue;
                     }
-                    user.meta = meta;
+                    lcUser.meta = setMeta(meta).meta;
                     break;
                 case 2:
                     Console.WriteLine("Tu presupuesto actual es de: $"+user.presupuesto);
@@ -49,12 +49,12 @@ public class EMPService : IEMPService
                         Console.WriteLine("Por favor, ingrese una cantidad valida.");
                         continue;
                     }
-                    user.presupuesto = presupuesto;
+                    lcUser.presupuesto = setPresupuesto(presupuesto).presupuesto;
                     break;
                 case 3:
                     Console.WriteLine("Tu Saldo Actual es de: $" + (totalIngresos-totalRetiros) );
                     decimal Avance = ( (totalIngresos-totalRetiros) / user.meta) * 100;
-                    decimal Faltante = user.meta - (totalIngresos - totalRetiros);
+                    decimal Faltante = calcularFaltanteMeta(user, (totalIngresos - totalRetiros));
                     if (Faltante < 0)
                     {
                         Console.WriteLine("Ya has logrado tu meta!!");
@@ -67,7 +67,7 @@ public class EMPService : IEMPService
                 case 4:
                     Console.WriteLine("Tu total de Gastos es de: $" + totalRetiros);
                     decimal Gastado = ( (totalRetiros) / user.presupuesto) * 100;
-                    decimal Restante = user.meta - (totalIngresos-totalRetiros);
+                    decimal Restante = calcularRestantePresupuesto(user, totalRetiros);
                     if (Restante < 0)
                     {
                         Console.WriteLine("Ya te has pasado de tu presupuesto, ya no gastes!");
@@ -80,5 +80,29 @@ public class EMPService : IEMPService
             }
         } while (opcion != 5);
         return lcUser;
+    }
+
+    public Users setMeta(decimal meta)
+    {
+        Users tmpUser = new Users();
+        tmpUser.meta = meta;
+        return tmpUser;
+    }
+    
+    public Users setPresupuesto(decimal presupuesto)
+    {
+        Users tmpUser = new Users();
+        tmpUser.presupuesto = presupuesto;
+        return tmpUser;
+    }
+
+    public decimal calcularFaltanteMeta(Users user, decimal saldo)
+    {
+        return user.meta - saldo;
+    }
+    
+    public decimal calcularRestantePresupuesto(Users user, decimal gastos)
+    {
+        return user.presupuesto - gastos;
     }
 }

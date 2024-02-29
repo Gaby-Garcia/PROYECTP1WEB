@@ -16,6 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PROYECTP1W.Test/Tests.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -44,7 +47,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.PROYECTP1W.App">
     <configuration name="PROYECTP1W.App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -76,7 +79,8 @@
       <workItem from="1708979988569" duration="28915000" />
       <workItem from="1709160125421" duration="1090000" />
       <workItem from="1709177367096" duration="398000" />
-      <workItem from="1709183442358" duration="3163000" />
+      <workItem from="1709183442358" duration="4123000" />
+      <workItem from="1709190568493" duration="4035000" />
     </task>
     <servers />
   </component>

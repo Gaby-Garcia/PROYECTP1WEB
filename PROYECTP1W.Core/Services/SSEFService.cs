@@ -7,11 +7,9 @@ public class SSEFService : ISSEFService
     public void Consult(Users user, List<Sf> lst)
     {
         int opcion;
-        
         do
         {
-            Console.WriteLine("Hola "+user.nombre+"!\n");
-            Console.WriteLine("----- Seguimiento de Saldo y Estado Financiero -----");
+            Console.WriteLine("\n \n----- Seguimiento de Saldo y Estado Financiero -----");
             Console.WriteLine("1. Consultar Saldo");
             Console.WriteLine("2. Estado Financiero");
             Console.WriteLine("3. Volver al menú principal");
@@ -27,7 +25,7 @@ public class SSEFService : ISSEFService
             {
                 case 1:
                     decimal totalIngresos = lst.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto);
-                    decimal totalRetiros = lst.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto);
+                    decimal totalRetiros = lst.Where(sf => sf.tipo == "Retiro").Sum(sf => sf.monto);
                     Console.WriteLine("El Saldo Actual de su Cuenta es: $"+Math.Round( (totalIngresos-totalRetiros), 2));
                     break;
                 case 2:
@@ -37,7 +35,7 @@ public class SSEFService : ISSEFService
                     {
                         Console.WriteLine($"{sf.tipo}\t{sf.categoria}\t{sf.concepto}\t${sf.monto}");
                     }
-                    Console.WriteLine("Saldo Actual en la Cuenta: $"+(lst.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto)-lst.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto)));
+                    Console.WriteLine("Saldo Actual en la Cuenta: $"+(lst.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto)-lst.Where(sf => sf.tipo == "Retiro").Sum(sf => sf.monto)));
                     break;
                 default:
                     Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");

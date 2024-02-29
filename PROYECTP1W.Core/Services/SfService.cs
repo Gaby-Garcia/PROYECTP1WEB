@@ -14,8 +14,7 @@ namespace PROYECTP1W.Core.Services
             do
             {
                 Sf transaction = new Sf();
-                Console.WriteLine("Hola "+user.nombre+"!");
-                Console.WriteLine("----- Registro de Transacciones -----");
+                Console.WriteLine("\n \n----- Registro de Transacciones -----");
                 Console.WriteLine("1. Ingresar transacción");
                 Console.WriteLine("2. Retirar transacción");
                 Console.WriteLine("3. Volver al menú principal");
@@ -32,7 +31,7 @@ namespace PROYECTP1W.Core.Services
                     case 1:
                         transaction.tipo = "Ingreso";
                         //Console.WriteLine("Saldo Actual: " + /*Agregar aqui la parte para el saldo*/);
-                        Console.Write("Selecciona la categoría: ");
+                        Console.WriteLine("Selecciona la categoría: ");
                         Console.WriteLine("1. Alimentación");
                         Console.WriteLine("2. Transporte");
                         Console.WriteLine("3. Salud");
@@ -83,6 +82,7 @@ namespace PROYECTP1W.Core.Services
                         transaction.monto = monto;
                         Console.WriteLine("Ingresa el concepto: ");
                         transaction.concepto = Console.ReadLine();
+                        transacciones.Add(transaction);
                         break;
                     case 2:
                         transaction.tipo = "Retiro";
@@ -138,6 +138,7 @@ namespace PROYECTP1W.Core.Services
                         transaction.monto = monto;
                         Console.WriteLine("Ingresa el concepto: ");
                         transaction.concepto = Console.ReadLine();
+                        transacciones.Add(transaction);
                         break;
                     case 3:
                         Console.WriteLine("Volver al menú principal :)");
@@ -146,8 +147,6 @@ namespace PROYECTP1W.Core.Services
                         Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
                         break;
                 }
-                transacciones.Add(transaction);
-                Console.WriteLine(transacciones);
             } while (opcion != 3);
             return transacciones;
         }

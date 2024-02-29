@@ -13,11 +13,9 @@ public class EMPService : IEMPService
         Users lcUser = user;
         decimal totalIngresos = lst.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto);
         decimal totalRetiros = lst.Where(sf => sf.tipo == "Retiro").Sum(sf => sf.monto);
-
         do
         {
-            Console.WriteLine("Hola " + user.nombre + "!");
-            Console.WriteLine("----- Metas y Presupuestos -----");
+            Console.WriteLine("\n \n----- Metas y Presupuestos -----");
             Console.WriteLine("1. Establecer/Modificar tu Meta");
             Console.WriteLine("2. Establecer/Modificar tu Presupuesto");
             Console.WriteLine("3. Consultar Avance de tu Meta");

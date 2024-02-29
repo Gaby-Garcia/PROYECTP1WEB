@@ -16,3 +16,22 @@ C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rinc�
 C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\8VO SEMESTRE\TECNOLOGIAS WEB MULTIPLATAFORMA\1ER PARCIAL\PROYECTP1\PROYECTP1W\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.pdb
 C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\8VO SEMESTRE\TECNOLOGIAS WEB MULTIPLATAFORMA\1ER PARCIAL\PROYECTP1\PROYECTP1W\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.genruntimeconfig.cache
 C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\8VO SEMESTRE\TECNOLOGIAS WEB MULTIPLATAFORMA\1ER PARCIAL\PROYECTP1\PROYECTP1W\PROYECTP1W.App\obj\Debug\net7.0\ref\PROYECTP1W.App.dll
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.exe
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.deps.json
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.runtimeconfig.json
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.dll
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.pdb
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.Core.dll
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.Core.pdb
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.AssemblyInfoInputs.cache
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.AssemblyInfo.cs
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.sourcelink.json
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.csproj.CopyComplete
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.dll
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\refint\PROYECTP1W.App.dll
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.pdb
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.genruntimeconfig.cache
+C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\ref\PROYECTP1W.App.dll

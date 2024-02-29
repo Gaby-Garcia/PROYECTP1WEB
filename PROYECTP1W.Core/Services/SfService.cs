@@ -89,7 +89,7 @@ namespace PROYECTP1W.Core.Services
                         decimal totalIngresos = transacciones.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto);
                         decimal totalRetiros = transacciones.Where(sf => sf.tipo == "Retiro").Sum(sf => sf.monto);
                         Console.WriteLine("Saldo Actual: " + (totalIngresos-totalRetiros) );
-                        Console.Write("Selecciona la categoría: ");
+                        Console.WriteLine("Selecciona la categoría: ");
                         Console.WriteLine("1. Alimentación");
                         Console.WriteLine("2. Transporte");
                         Console.WriteLine("3. Salud");
@@ -139,7 +139,6 @@ namespace PROYECTP1W.Core.Services
                         Console.WriteLine("Ingresa el concepto: ");
                         transaction.concepto = Console.ReadLine();
                         break;
-                        break;
                     case 3:
                         Console.WriteLine("Volver al menú principal :)");
                         break;
@@ -148,6 +147,7 @@ namespace PROYECTP1W.Core.Services
                         break;
                 }
                 transacciones.Add(transaction);
+                Console.WriteLine(transacciones);
             } while (opcion != 3);
             return transacciones;
         }

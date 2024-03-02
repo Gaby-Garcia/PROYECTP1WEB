@@ -5534,40 +5534,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {}
+    "C:\\Users\\gabyg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.Test\\PROYECTP1W.Test.csproj",
+      "projectUniqueName": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\Documentos\\PROYECTWEBP1\\PROYECTP1WEB\\PROYECTP1W.Test\\PROYECTP1W.Test.csproj",
       "projectName": "PROYECTP1W.Test",
-      "projectPath": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.Test\\PROYECTP1W.Test.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.Test\\obj\\",
+      "projectPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\Documentos\\PROYECTWEBP1\\PROYECTP1WEB\\PROYECTP1W.Test\\PROYECTP1W.Test.csproj",
+      "packagesPath": "C:\\Users\\gabyg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\Documentos\\PROYECTWEBP1\\PROYECTP1WEB\\PROYECTP1W.Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gabyg\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj": {
-              "projectPath": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj"
+            "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\Documentos\\PROYECTWEBP1\\PROYECTP1WEB\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj": {
+              "projectPath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\Documentos\\PROYECTWEBP1\\PROYECTP1WEB\\PROYECTP1W.Core\\PROYECTP1W.Core.csproj"
             }
           }
         }
@@ -5619,7 +5611,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

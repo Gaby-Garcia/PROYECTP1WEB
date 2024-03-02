@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using PROYECTP1W.Core.Entities;
 using PROYECTP1W.Core.Services.Interfaces;
 
@@ -20,9 +21,9 @@ namespace PROYECTP1W.Core.Services
                 Console.WriteLine("3. Volver al menú principal");
                 Console.Write("Seleccione una opción: ");
 
-                if (!int.TryParse(Console.ReadLine(), out opcion))
+                if (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 1 || opcion > 3)
                 {
-                    Console.WriteLine("Opción no válida. Por favor, ingrese un número válido.");
+                    Console.WriteLine("Opción no válida. Por favor, ingrese un número válido entre 1 y 3.");
                     continue;
                 }
 
@@ -30,19 +31,19 @@ namespace PROYECTP1W.Core.Services
                 {
                     case 1:
                         transaction.tipo = "Ingreso";
-                        //Console.WriteLine("Saldo Actual: " + /*Agregar aqui la parte para el saldo*/);
                         Console.WriteLine("Selecciona la categoría: ");
                         Console.WriteLine("1. Alimentación");
                         Console.WriteLine("2. Transporte");
                         Console.WriteLine("3. Salud");
-                        Console.WriteLine("4. Entetenimeinto");
+                        Console.WriteLine("4. Entretenimiento");
                         Console.WriteLine("5. Otros");
-                        
-                        if (!int.TryParse(Console.ReadLine(), out category))
+
+                        if (!int.TryParse(Console.ReadLine(), out category) || category < 1 || category > 5)
                         {
-                            Console.WriteLine("Opción no válida. Por favor, ingrese un número válido.");
+                            Console.WriteLine("Opción no válida. Por favor, ingrese un número válido entre 1 y 5.");
                             continue;
                         }
+
                         switch (category)
                         {
                             case 1:
@@ -60,48 +61,56 @@ namespace PROYECTP1W.Core.Services
                             case 5:
                                 transaction.categoria = "Otros";
                                 break;
-                            default:
-                                Console.WriteLine("Selecciona una categoria valida");
-                                break;
                         }
+
                         do
                         {
                             Console.Write("Coloca la cantidad a ingresar: ");
-                            if (!decimal.TryParse(Console.ReadLine(), out monto))
+                            if (!decimal.TryParse(Console.ReadLine(), out monto) || monto < 0)
                             {
-                                Console.WriteLine("Opción no válida. Por favor, ingrese un monto válido.");
+                                Console.WriteLine("Monto no válido. Por favor, ingrese un monto positivo.");
                                 continue;
                             }
+                            else
+                            {
+                                break;
+                            }
+                        } while (true);
 
-                            if (monto < 0)
-                            {
-                                Console.WriteLine("Ingresa un monto valido");
-                                continue;
-                            }
-                        } while (monto < 0);
                         transaction.monto = monto;
+
                         Console.WriteLine("Ingresa el concepto: ");
                         transaction.concepto = Console.ReadLine();
+
                         transacciones.Add(transaction);
                         break;
+
                     case 2:
                         transaction.tipo = "Retiro";
-                        decimal totalIngresos = transacciones.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto);
-                        decimal totalRetiros = transacciones.Where(sf => sf.tipo == "Retiro").Sum(sf => sf.monto);
-                        Console.WriteLine("Saldo Actual: " + (totalIngresos-totalRetiros) );
+                        decimal totalIngresos = 0;
+                        decimal totalRetiros = 0;
+                        foreach (var sf in transacciones)
+                        {
+                            if (sf.tipo == "Ingreso")
+                                totalIngresos += sf.monto;
+                            else if (sf.tipo == "Retiro")
+                                totalRetiros += sf.monto;
+                        }
+
+                        Console.WriteLine("Saldo Actual: " + (totalIngresos - totalRetiros));
                         Console.WriteLine("Selecciona la categoría: ");
                         Console.WriteLine("1. Alimentación");
                         Console.WriteLine("2. Transporte");
                         Console.WriteLine("3. Salud");
-                        Console.WriteLine("4. Entetenimeinto");
+                        Console.WriteLine("4. Entretenimiento");
                         Console.WriteLine("5. Otros");
-                        
-                        if (!int.TryParse(Console.ReadLine(), out category))
+
+                        if (!int.TryParse(Console.ReadLine(), out category) || category < 1 || category > 5)
                         {
-                            Console.WriteLine("Opción no válida. Por favor, ingrese un número válido.");
+                            Console.WriteLine("Opción no válida. Por favor, ingrese un número válido entre 1 y 5.");
                             continue;
                         }
-                        
+
                         switch (category)
                         {
                             case 1:
@@ -120,44 +129,45 @@ namespace PROYECTP1W.Core.Services
                                 transaction.categoria = "Otros";
                                 break;
                         }
+
                         do
                         {
                             Console.Write("Coloca la cantidad a retirar: ");
-                            if ((!decimal.TryParse(Console.ReadLine(), out monto)) || HaveMoney(monto,  (totalIngresos-totalRetiros)))
+                            if (!decimal.TryParse(Console.ReadLine(), out monto) || monto < 0 || !HaveMoney(monto, (totalIngresos - totalRetiros)))
                             {
-                                Console.WriteLine("Opción no válida. Por favor, ingrese un monto válido.");
+                                Console.WriteLine("Monto no válido o excede el saldo disponible. Por favor, ingrese un monto válido.");
                                 continue;
                             }
+                            else
+                            {
+                                break;
+                            }
+                        } while (true);
 
-                            if (monto < 0)
-                            {
-                                Console.WriteLine("Ingresa un monto valido");
-                                continue;
-                            }
-                        } while (monto < 0);
                         transaction.monto = monto;
+
                         Console.WriteLine("Ingresa el concepto: ");
                         transaction.concepto = Console.ReadLine();
+
                         transacciones.Add(transaction);
                         break;
+
                     case 3:
                         Console.WriteLine("Volver al menú principal :)");
                         break;
+
                     default:
                         Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
                         break;
                 }
             } while (opcion != 3);
+
             return transacciones;
         }
 
         public bool HaveMoney(decimal monto, decimal saldo)
         {
-            if (saldo > monto)
-                return true;
-            else
-                return false;
+            return saldo >= monto;
         }
-        
     }
 }

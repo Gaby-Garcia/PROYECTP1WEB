@@ -21,3 +21,15 @@ C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.Core\
 C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\refint\PROYECTP1W.Core.dll
 C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\PROYECTP1W.Core.pdb
 C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\ref\PROYECTP1W.Core.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\bin\Debug\net7.0\PROYECTP1W.Core.deps.json
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\bin\Debug\net7.0\PROYECTP1W.Core.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\bin\Debug\net7.0\PROYECTP1W.Core.pdb
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\PROYECTP1W.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\PROYECTP1W.Core.AssemblyInfoInputs.cache
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\PROYECTP1W.Core.AssemblyInfo.cs
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\PROYECTP1W.Core.csproj.CoreCompileInputs.cache
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\PROYECTP1W.Core.sourcelink.json
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\PROYECTP1W.Core.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\refint\PROYECTP1W.Core.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\PROYECTP1W.Core.pdb
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.Core\obj\Debug\net7.0\ref\PROYECTP1W.Core.dll

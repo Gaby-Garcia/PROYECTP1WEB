@@ -15,7 +15,7 @@ public class SSEFService : ISSEFService
             Console.WriteLine("3. Volver al menú principal");
             Console.Write("Seleccione una opción: ");
 
-            if (!int.TryParse(Console.ReadLine(), out opcion))
+            if (!int.TryParse(Console.ReadLine(), out opcion)|| opcion < 1 || opcion > 3)
             {
                 Console.WriteLine("Opción no válida. Por favor, ingrese un número válido.");
                 continue;
@@ -26,6 +26,8 @@ public class SSEFService : ISSEFService
                 case 1:
                     decimal totalIngresos = lst.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto);
                     decimal totalRetiros = lst.Where(sf => sf.tipo == "Retiro").Sum(sf => sf.monto);
+                    Console.WriteLine("El total de ingresos es: $" + totalIngresos);
+                    Console.WriteLine("El total de Retiros es: $" + totalRetiros);
                     Console.WriteLine("El Saldo Actual de su Cuenta es: $"+Math.Round( (totalIngresos-totalRetiros), 2));
                     break;
                 case 2:
@@ -37,6 +39,9 @@ public class SSEFService : ISSEFService
                     }
                     Console.WriteLine("Saldo Actual en la Cuenta: $"+(lst.Where(sf => sf.tipo == "Ingreso").Sum(sf => sf.monto)-lst.Where(sf => sf.tipo == "Retiro").Sum(sf => sf.monto)));
                     break;
+                case 3:
+                 Console.WriteLine("Volver al menú principal :)");
+                break;
                 default:
                     Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
                     break;

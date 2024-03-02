@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using PROYECTP1W.Core.Entities;
 using PROYECTP1W.Core.Managers;
 using PROYECTP1W.Core.Services;
@@ -11,21 +12,23 @@ namespace PROYECTP1W.Console
         {
             var user = new Users();
             List<Sf> lstSf = new List<Sf>();
-            
-            int option;
+
             System.Console.WriteLine("Ingresa por favor tu nombre");
             user.nombre = System.Console.ReadLine();
-            
+
+            int option;
             do
             {
-                System.Console.WriteLine("Bienvenid@ "+ user.nombre + "!");
+                System.Console.WriteLine("Bienvenid@ " + user.nombre + "!");
                 System.Console.WriteLine("----- Menu del Sistema -----");
                 System.Console.WriteLine("1. Registro de Transacciones");
                 System.Console.WriteLine("2. Seguimiento de Saldo y Estado Financiero");
                 System.Console.WriteLine("3. Establecimiento de metas y presupuestos");
-                System.Console.WriteLine("0. Salir del Sistema");
+                System.Console.WriteLine("4. Salir del Sistema");
                 System.Console.Write("Ingresa una opción: ");
-                if (!int.TryParse(System.Console.ReadLine(), out option))
+
+                string input = System.Console.ReadLine();
+                if (!int.TryParse(input, out option))
                 {
                     System.Console.WriteLine("Opción no válida. Por favor, ingrese un número válido.");
                     continue;
@@ -48,14 +51,14 @@ namespace PROYECTP1W.Console
                         var managerEMP = new EMPManager(serviceEMP);
                         managerEMP.GetEMP(user, lstSf);
                         break;
-                    case 0:
-                        System.Console.WriteLine("Ha salido del sistema, que tenga un buen dia!! :)");
+                    case 4:
+                        System.Console.WriteLine("Ha salido del sistema, que tenga un buen día!! :)");
                         break;
                     default:
-                        System.Console.WriteLine("No es una opcion del Sistema");
+                        System.Console.WriteLine("No es una opción del Sistema");
                         break;
                 }
-            } while (option != 0);
+            } while (option != 4);
         }
     }
 }

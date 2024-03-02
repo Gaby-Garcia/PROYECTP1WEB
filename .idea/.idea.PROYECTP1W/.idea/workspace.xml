@@ -7,7 +7,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48dd04d5-1e25-4501-ad88-6a3cb91c1f47" name="Changes" comment="" />
+    <list default="true" id="48dd04d5-1e25-4501-ad88-6a3cb91c1f47" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PROYECTP1W/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PROYECTP1W/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.App.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.App.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/bin/Debug/net7.0/PROYECTP1W.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/PROYECTP1W.App.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/ref/PROYECTP1W.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/ref/PROYECTP1W.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/refint/PROYECTP1W.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/Debug/net7.0/refint/PROYECTP1W.App.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/PROYECTP1W.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/PROYECTP1W.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/PROYECTP1W.App.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/PROYECTP1W.App.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/Services/SSEFService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/Services/SSEFService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/Services/SfService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/Services/SfService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/bin/Debug/net7.0/PROYECTP1W.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/bin/Debug/net7.0/PROYECTP1W.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/bin/Debug/net7.0/PROYECTP1W.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/bin/Debug/net7.0/PROYECTP1W.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/PROYECTP1W.Core.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/ref/PROYECTP1W.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/ref/PROYECTP1W.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/refint/PROYECTP1W.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/Debug/net7.0/refint/PROYECTP1W.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/PROYECTP1W.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/PROYECTP1W.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/PROYECTP1W.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/PROYECTP1W.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/CoverletSourceRootsMapping_PROYECTP1W.Test" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/CoverletSourceRootsMapping_PROYECTP1W.Test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/PROYECTP1W.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/PROYECTP1W.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/PROYECTP1W.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/PROYECTP1W.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/PROYECTP1W.Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/PROYECTP1W.Test.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/PROYECTP1W.Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/bin/Debug/net8.0/PROYECTP1W.Test.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/PROYECTP1W.Test.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/ref/PROYECTP1W.Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/ref/PROYECTP1W.Test.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/refint/PROYECTP1W.Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/Debug/net8.0/refint/PROYECTP1W.Test.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/PROYECTP1W.Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/PROYECTP1W.Test.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/PROYECTP1W.Test.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/PROYECTP1W.Test.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTP1W.Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PROYECTP1W.Test/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +82,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/PROYECTP1W.Test/Tests.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -32,6 +99,7 @@
     &quot;.NET Project.PROYECTP1W.App.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gaby-prueba&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -41,9 +109,9 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\PC\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\PC\\AppData\\Local\\Symbols\\src&quot;
+      &quot;C:\\Users\\gabyg\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\gabyg\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\gabyg\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
 }</component>
@@ -81,6 +149,13 @@
       <workItem from="1709177367096" duration="398000" />
       <workItem from="1709183442358" duration="4123000" />
       <workItem from="1709190568493" duration="4035000" />
+      <workItem from="1709196138566" duration="451000" />
+      <workItem from="1709196688382" duration="4264000" />
+      <workItem from="1709201251297" duration="1259000" />
+      <workItem from="1709203297474" duration="91000" />
+      <workItem from="1709219325734" duration="299000" />
+      <workItem from="1709219674706" duration="5074000" />
+      <workItem from="1709346606488" duration="1025000" />
     </task>
     <servers />
   </component>

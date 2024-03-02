@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sUtDYdikF8mgGTenc7aC4115HUQtj4iMWauTnnxirD4ab4WmNu5CzNlpLayReHsKRaRR0fpfiya+9UJRzTuMAg==",
+  "dgSpecHash": "Bd+Vp7scu+Xf22vdv3Cizjv0XrMoD3ijQRFgk+937+ikzlfG8a4TC+jG9pQ/N0aBwz9bwpcnspWOaGD4v+LQFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Downloads\\Proyecto Jair Primer Parcial\\PROYECTP1WEB\\PROYECTP1W.App\\PROYECTP1W.App.csproj",
+  "projectFilePath": "C:\\Users\\gabyg\\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\\Documentos\\PROYECTWEBP1\\PROYECTP1WEB\\PROYECTP1W.App\\PROYECTP1W.App.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+    "C:\\Users\\gabyg\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\gabyg\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\gabyg\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\gabyg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }

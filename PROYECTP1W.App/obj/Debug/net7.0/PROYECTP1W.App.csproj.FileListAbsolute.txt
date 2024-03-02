@@ -35,3 +35,22 @@ C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\o
 C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.pdb
 C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.genruntimeconfig.cache
 C:\Users\PC\Downloads\Proyecto Jair Primer Parcial\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\ref\PROYECTP1W.App.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.exe
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.deps.json
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.runtimeconfig.json
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.App.pdb
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.Core.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\bin\Debug\net7.0\PROYECTP1W.Core.pdb
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.csproj.AssemblyReference.cache
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.AssemblyInfoInputs.cache
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.AssemblyInfo.cs
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.csproj.CoreCompileInputs.cache
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.sourcelink.json
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP.CFD5745B.Up2Date
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\refint\PROYECTP1W.App.dll
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.pdb
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\PROYECTP1W.App.genruntimeconfig.cache
+C:\Users\gabyg\OneDrive - Instituto Tecnológico Superior de Purísima del Rincón\Documentos\PROYECTWEBP1\PROYECTP1WEB\PROYECTP1W.App\obj\Debug\net7.0\ref\PROYECTP1W.App.dll
